@@ -70,7 +70,6 @@
     ],
     "declaration-empty-line-before": null,
     "font-family-no-missing-generic-family-keyword": null,
-    "function-calc-no-invalid": false,
     "function-calc-no-unspaced-operator": [
       true,
       {
