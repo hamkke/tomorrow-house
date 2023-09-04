@@ -1,3 +1,11 @@
+@import './constants/colors';
+
 @import './base/normalize';
 @import './base/fonts';
 @import './base/reset';
+
+/*
+변수 선언 방법
+$flower: color 1s ease-in-out;
+p {transition:$flower;}
+*/
