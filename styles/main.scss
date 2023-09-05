@@ -5,10 +5,22 @@
 @import './base/fonts';
 @import './base/reset';
 
+@import './mixins/text-style';
+
 @import './layouts/grids';
 
-/*
-변수 선언 방법
-$flower: color 1s ease-in-out;
-p {transition:$flower;}
-*/
+// 변수 선언 방법
+// $flower: color 1s ease-in-out;
+// p {transition:$flower;}
+
+// @mixin hello($color) {
+//   color: $color;
+
+//   .ic-close {
+//     width: 30px;
+//   }
+// }
+
+// p {
+//   @include hello(#cf0d0d);
+// }
