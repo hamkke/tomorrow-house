@@ -1,5 +1,8 @@
 {
-  "extends": ["stylelint-config-recess-order", "stylelint-config-standard"],
+  "extends": [
+    "stylelint-config-recess-order",
+    "stylelint-config-standard-scss"
+  ],
   "plugins": ["stylelint-scss"],
   "rules": {
     "import-notation": "string",
@@ -184,9 +187,10 @@
     "scss/comment-no-empty": true,
     "scss/dollar-variable-colon-space-after": "always",
     "scss/dollar-variable-pattern": "^.[a-z]+(-[a-z0-9])*",
-    "scss/double-slash-comment-empty-line-before": "always",
+    "scss/double-slash-comment-empty-line-before": "never",
     "scss/no-duplicate-mixins": true,
     "scss/operator-no-unspaced": true,
-    "scss/percent-placeholder-pattern": "^.[a-z]+(-[a-z0-9])*"
+    "scss/percent-placeholder-pattern": "^.[a-z]+(-[a-z0-9])*",
+    "scss/dollar-variable-empty-line-before": null
   }
 }
